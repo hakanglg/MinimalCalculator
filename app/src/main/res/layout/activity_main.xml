@@ -57,6 +57,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:layout_margin="3dp"
+            android:onClick="onOperator"
             android:text="@string/_divide" />
     </LinearLayout>
     <LinearLayout
@@ -98,6 +99,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:layout_margin="3dp"
+            android:onClick="onOperator"
             android:text="@string/_multiplication" />
     </LinearLayout>
     <LinearLayout
@@ -140,6 +142,7 @@
             android:layout_height="match_parent"
             android:layout_margin="3dp"
             android:layout_weight="1"
+            android:onClick="onOperator"
             android:text="@string/_subtract" />
     </LinearLayout>
     <LinearLayout
@@ -181,6 +184,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:layout_margin="3dp"
+            android:onClick="onOperator"
             android:text="@string/_plus" />
     </LinearLayout>
     <LinearLayout
@@ -198,6 +202,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:layout_margin="3dp"
+            android:onClick="onEqual"
             android:text="@string/_equal" />
     </LinearLayout>
 
